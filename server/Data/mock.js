@@ -4,22 +4,22 @@ const courses = [
     {
         id: uuidv4(),
         name: 'İleri seviye MERN Stack uygulama geliştirme',
-        aciklama: 'İleri seviye tekniklerle MERN stack uygulama geliştirme',
-        durum: 'Taslak',
+        description: 'İleri seviye tekniklerle MERN stack uygulama geliştirme',
+        status: 'Taslak',
         instructorId: 'f1099bd3-924f-457b-aff7-5d3510b92d97'
     },
     {
         id: uuidv4(),
         name: 'İleri seviye GraphQL uygulama geliştirme',
-        aciklama: 'İleri seviye tekniklerle GraphQL uygulama geliştirme',
-        durum: 'Pasif',
+        description: 'İleri seviye tekniklerle GraphQL uygulama geliştirme',
+        status: 'Pasif',
         instructorId: 'bd5929ba-928e-4fa2-b105-8f39518827f4'
     },
     {
         id: uuidv4(),
         name: 'VueJS 3 Eğitim Serisi',
-        aciklama: '0 dan 100 e VueJS 3 Eğitimi',
-        durum: 'Yayında',
+        description: '0 dan 100 e VueJS 3 Eğitimi',
+        status: 'Yayında',
         instructorId: '733fc564-de86-47c5-a63c-ff31fdffb8d4'
     },
 ];
