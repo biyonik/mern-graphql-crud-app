@@ -37,7 +37,7 @@ const CourseType = new GraphQLObjectType({
         instructor: {
             type: InstructorType,
             resolve: (parent, args) => {
-                return InstructorModel.findById(parent.id);
+                return InstructorModel.findById(parent.instructorId);
             }
         }
     })

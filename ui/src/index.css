@@ -7,7 +7,45 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navbar-brand {
+  color: #e63946;
+}
+
+.navbar-brand img {
+  width: 35px;
+  margin-right: 10px;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #8ecae6 !important;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #8ecae6;
+  opacity: 0.9;
+}
+
+.btn-secondary {
+  background-color: #003566;
+}
+
+.btn-secondary:hover {
+  background-color: #003566;
+  opacity: 0.9;
+}
+
+.icon {
+  margin-right: 5px;
+}
+
+.btn-warning{
+  background-color:#e63946;
+  border: none;
+  color:white
 }
